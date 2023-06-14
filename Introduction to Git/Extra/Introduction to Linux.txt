@@ -1,0 +1,69 @@
+1.Distros
+What are distributions of Linux-based operating systems?
+
+particular selections of different software, packaged with the Linux kernel by a community or a company
+
+2.Customize the system
+What should you do in order to adjust the Linux system to your wants and needs?
+
+choose a distribution and customize it
+
+3.Distributions
+What may distributions consist of?
+
+Graphical User Interface
+
+Pre-installed programs
+
+Kernel
+
+4.Linux distributions
+Choose the names of Linux distributions.
+
+Debian
+
+Fedora
+
+Ubuntu
+
+5.Diversity
+
+Why are there so many Linux-based distributions?
+
+Linux was released under a license, which allows anyone to create their own distribution and distribute it freely
+
+6.Linux development
+What is the name of the operating system on which Linux was based on?
+
+UNIX
+
+7.Using Linux
+
+Where is Linux used?
+
+Servers
+
+Supercomputers
+
+Embedded systems
+
+The Android OS
+
+Network software
+
+8. *nix
+
+Linux-based operating systems are sometimes also referred to as Unix-like systems. Why is that?
+
+They are in some ways, descendants of the original UNIX operating system and constructed similarly
+
+9. Customize the system
+
+What should you do in order to adjust the Linux system to your wants and needs?
+
+choose a distribution and customize it
+
+10. What is Linux distribution?
+A Linux distribution is
+
+an operating system based on the Linux kernel

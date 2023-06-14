@@ -1,0 +1,47 @@
+1. Working with commits
+Mary executed the following sequence of commands:
+
+$ git checkout feature
+$ git rebase -i master
+As a result, she was able to open the editor to work with commits:
+
+image(https://ucarecdn.com/4de452e9-6752-4ec0-a84f-b7f03aa8b426/-/crop/1024x250/0,270/-/preview/)
+
+Write what command does "take this commit" mean? You need to write one word in the box.
+
+pick
+
+2. Merge commands
+What are two commands for merging branches you already know?
+
+git merge
+
+git rebase
+
+3. Rebase method
+What can you do with the git rebase command?
+
+move some changes to the target branch and rewrite history
+
+4. Merge method
+What happens to changes when we merge them using git merge?
+
+their whole history is preserved
+
+5. Changing the commit message
+Max opened the editor with a git rebase -i master command and wants to rewrite the commit message. What command does he need? Write one word in the box.
+
+reword
+
+6. Rebase pros
+What can the git rebase command do and what is it especially good at?
+
+simplifies change history
+
+7. Missing command
+Zhenya is working on a large project and she knew that the last new feature has just been finished on the feature branch. And now she is to merge it with the master branch. To do this, Zhenya decided to use the git rebase command. She wrote in the terminal:
+
+$ git rebase master
+But she seems to have forgotten something. Choose from the list the command that Zhenya did not write.
+
+$ git checkout feature

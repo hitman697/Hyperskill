@@ -1,0 +1,44 @@
+1. Copy that
+Let's say that you have a working SSH-server at home. You went traveling and forgot to copy the file warp-engine to the ~/Documents directory on your laptop. Which command will help you get that file?
+
+scp home-server:~/Documents/warp-engine ~/Documents/
+
+2. Key command
+Which command do you need for generating public and private key pair?
+
+ssh-keygen
+
+3. SSH from the moon
+A new communication station was built on the moon. But the people there don't know how to set up an SSH-server on the station's computer. You have been tasked with the mission of setting up an SSH-server, so that people from Earth can use the station. The operating system on the computer uses APT package manager, SystemD as system manager and uncomplicated firewall (ufw). Sort the commands to set up an SSH-server there.
+
+sudo apt install OpenSSH-server
+sudo systemctl enable ssh
+sudo systemctl start ssh
+sudo ufw allow OpenSSH
+
+4. Copy command
+Which command can you use for copying files through an SSH-connection?
+
+scp
+
+5. Public key
+Choose the right command to add your public key to the server's directory .ssh.
+
+ssh-copy-id -i ~/.ssh/id-key.pub ssh-server
+
+6. Shell Server Hacker
+What does SSH stands for?
+
+Secure Shell
+
+7. SSH config file
+Find mistakes in this configuration file for SSH-connection in ~/.ssh/config
+
+Host happy-server
+ user 104.21.85.36
+ IdentityFile id-rsa
+
+
+"user" instead of "hostname"
+
+there is no username

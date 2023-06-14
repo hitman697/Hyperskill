@@ -1,0 +1,65 @@
+1.Working with the repository
+Lana created her own repository and added some files there. Then she made a commit and decided to check the state of her repository. Type the command which Lana should use.
+
+git status
+
+2.New file
+
+Which command should one use to add the program.py file to the git repository?
+
+git add program.py
+
+3.Commit representation
+
+A commit represents
+
+the state of the repository at a specific point in time
+
+4.Fix the changes
+
+Which command should one use in order to save the changes in a repository?
+
+git commit
+
+5.Arrange in correct order
+
+Arrange the sequence of actions in the correct order.
+
+create a directory with files
+initialize a new git repository
+perform git add command
+commit changes and add a comment
+
+6.Git repository
+A Git repository is...
+
+a special directory that contains programs in development
+
+7.Initializing a repository
+The git init command allows you to create
+
+a local repository
+
+
+8.Commit message
+
+What should you add to the $ git commit command for the commit to have a comment?
+
+-m "commit text"
+
+
+9. Remote server
+
+
+Why do you need a remote server? Select all the correct answers.
+
+to share the code so it can be seen by other developers
+
+to deliver the code to the server where it will run
+
+
+10. Application
+
+You have 10 files to add to your repository, but you have no time to commit them one by one. Type here a command that will save your time.
+
+git commit -A

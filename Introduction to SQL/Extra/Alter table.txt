@@ -1,0 +1,76 @@
+1. Fix the typo
+Select the correct query to fix the typo in the table customers with columns name (VARCHAR(20)), order_no (INT), and date (DATE).
+
+   	             	---------------------------------------------------------
+			|		|			|		|
+			|	nme	|	order_no	|	date	|
+			|		|			|		|
+			---------------------------------------------------------
+
+
+ALTER TABLE customers CHANGE nme name varchar(20);
+
+2. Married yet?
+Add a new column marital_status VARCHAR(20) to the table persons.
+
+
+   	             	-------------------------------------------------------------------------
+			|	first_name	|	last_name	|	city		|
+			-------------------------------------------------------------------------
+			|	Jane		|	Austin		|	London		|
+			|	Jack		|	Smith		|	York		|
+			|	Tom		|	Weasley		|	Liverpool	|
+			-------------------------------------------------------------------------
+
+ALTER TABLE persons
+ADD COLUMN marital_status VARCHAR(20);
+
+3. Drop the cats!
+Delete the column cat (VARCHAR(20)) from the table teachers.
+
+		-------------------------------------------------------------------------------------------------
+		|	name		|	subject		|	school		|	cat		|
+		-------------------------------------------------------------------------------------------------
+		|	Tom Rand	|	P.E.		|	11		|	Smokey		|
+		|	Ann Smith	|	Algebra		|	32		|	Lucky		|
+		-------------------------------------------------------------------------------------------------
+
+ALTER TABLE teachers
+DROP COLUMN cat;
+
+4. Empty column
+
+
+What happens if you drop a column that is not empty from the table using ALTER TABLE?
+
+You drop the column and all data from this column
+
+5. Correct statements
+
+Find all the correct statements about ALTER TABLE.
+
+You can use ALTER TABLE to change column data type
+
+You can't use ALTER TABLE to delete a table
+
+You can use ALTER TABLE to add a column
+
+6. Experience needed
+Correct the following query:
+
+ALTER TABLE employees 
+MODIFY ROW years_experience INT; 
+
+
+ALTER TABLE employees 
+MODIFY COLUMN years_experience INT;  /* You can only modify a COLUMN in SQL*/
+
+7. Types
+For the table students, change the type of the column personal_number from VARCHAR(20) to INT.
+
+		---------------------------------------------------------------------------------------------------------
+		|	personal_number		|	name		|	city		|	faculty		|
+		---------------------------------------------------------------------------------------------------------
+
+ALTER TABLE students
+MODIFY COLUMN personal_number INT;

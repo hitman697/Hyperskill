@@ -1,0 +1,68 @@
+1. Create a branch
+
+Maria is a beginner programmer mastering git. She created a branch new_branch and added a text file test.txt to it, and then she made a commit. Write the name of the branch where Maria's file is located.
+
+new_branch
+
+2. What does the command do?
+
+git checkout command
+
+switches between branches
+
+3. My branch
+John has recently started using git. John created a branch called my_branch and tried to add text.txt file to this newly created branch. But, after the git add text.txt command, the file was instead added to the main branch. What command did John forget to use?
+
+git checkout my_branch
+
+4. Experimental branch with awesome routine
+Sort the git commands so that the following points are carried out one after another.
+
+Check the branches you have,
+then make a new branch called "experimental",
+switch to this new branch,
+make changes by adding a file,
+then commit these changes,
+and switch back to the main branch.
+
+git branch
+git branch experimental
+git checkout experimental
+git add Tom-Paris-holodeck-routine.hs
+git commit -m "Awesome routine! Finally done!”
+git checkout main
+
+5. Choose the right command
+
+Programmer Kate created a new branch and added a file with python code to it. Then she switched to the main branch of the project and did not find her file there. What command can she use to make her new code appear in the master?
+
+git merge
+
+
+6. What is branch?
+
+A branch is
+
+a copy of the original project
+
+7. Compare concepts
+
+Match the concepts with their definitions. Please note that one of the definitions is the odd one out.
+
+
+merging		applying changes from one branch to another
+switching	transitioning from one branch to another
+branching	splitting project versions
+		creating a new branch
+
+8. Resolve the conflict
+
+Tim and Tom are inattentive students who were tasked with writing a calculator that implements addition, subtraction, division, and multiplication. They decided to do the work together. But they also decided to make their own edits. Tim added squaring, and Tom rewrote division to return the remainder of it.
+
+Both were committing to their branches, and now they need to merge them. But, in the merge process there appeared to be a conflict. It seems that both Tim and Tom made changes to the same file. After the merge, two versions of the file existed on the same branch.
+
+Sort the actions to make an algorithm that resolves this conflict and helps them continue their work?
+
+revise their commits, observe differences between them and remember the original assignment
+revert changes to the moment when the calculator was not edited
+make a new commit, while avoiding changes to the same file on different branches

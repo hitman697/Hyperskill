@@ -1,0 +1,73 @@
+1.Going deep
+
+What will you see on the screen if you type the tree -d -L 3 command?
+
+Structure of the directories 3 levels deep from the current folder
+
+2. Display files
+
+Write a program that will print all the files including the hidden ones in the /tmp/test directory.
+
+Expected format:
+
+.
+..
+.hidden
+.ignore
+Poems.pdf
+my_python.py
+
+solve() {
+    # add your solution here
+    ls -a1 /tmp/test
+}
+
+3. Visualize folder structure
+
+Which command can be used to visualize the structure of a folder?
+
+tree
+
+4. Sort files by size
+
+Write a program that will sort the files from the /tmp/test folder by size in descending order and display the files and their size in the terminal.
+
+Expected format:
+
+total 20
+12 script.sh
+ 4 my_python.py
+ 4 literature
+
+solve() {
+    # add your solution here
+    ls -sS /tmp/test
+}
+
+5. Command capabilities
+
+What can you do with the ls command?
+
+view the contents of a folder
+
+6. Sort files by time
+
+Write a program that will sort the files from the /tmp/test folder by their creation time in the ascending order and display the detailed information about them in the terminal.
+
+Expected format:
+
+total 48
+-rw-r--r--. 1 sandbox sandbox  8322 Feb 26 18:30 wiki_data.txt
+-rw-r--r--. 1 sandbox sandbox 20316 Feb 26 18:30 story.txt
+-rw-r--r--. 1 sandbox sandbox 13108 Feb 26 18:30 Poems.pdf
+
+solve() {
+    # add your solution here
+    ls -ltr /tmp/test
+}
+
+7. File content
+
+Which command should you use to find out the type of content in the file without opening it?
+
+file

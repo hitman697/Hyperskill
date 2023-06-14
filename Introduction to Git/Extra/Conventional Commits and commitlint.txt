@@ -1,0 +1,101 @@
+1. Fixes
+You tried to commit, but commitlint aborted the execution and gave you the following message:
+
+✖   subject may not be empty [subject-empty]
+✖   type may not be empty [type-empty]
+
+add the type of commit
+
+
+2. Commit types
+Match the commit types with the changes they make to the repository.
+
+feat		adding new functionality
+docs		changes in documentation
+perfs		changes that affect the performance of an application
+revert		undoing changes made by another commit
+cd		non-existent type
+
+3. Commitlint installation
+Sort the list to arrange the installation steps for Commitlint in the correct order.
+
+npm install @commitlint/cli @commitlint/config-conventional
+creating the commitlint.config.js file with extensions
+npm install husky
+npx husky install
+npx husky add .husky/commit-msg "npx --no -- commitlint --edit $1"
+
+4. Exclamation mark
+Why do we use an exclamation mark (!) in the commit message?
+
+to outline the importance of the commit
+
+5. Inconvenient commit
+Fix the mistakes in this commit message and write it correctly:
+
+(api)new_feature - allow provided config object to extend other configs
+
+feat(api): allow provided config object to extend other configs
+
+6. Delimiters
+Problem of the day solved
+Next problem in: 17h 33m 30s
+Which delimiters are customary to use when specifying several scopes?
+
+\
+
+,
+
+/
+
+7. Breaking changes
+What does the BREAKING CHANGES footer describe?
+
+significant changes that greatly affect the application functionality
+
+
+8. Correct structure
+Which of these is the correct commit message structure?
+
+a)
+
+<type>[!][(scope)]: <description>
+
+[body]
+
+[footer]
+
+b)
+
+<type>[(scope)][!]: [body]
+
+<description>
+
+[footer]
+
+c)
+
+<type>[(scope)][!]: <description>
+
+[body]
+
+[footer]
+
+d)
+
+[(scope)]<type>[!]: <description>
+
+[body]
+
+[footer]
+
+
+Select one option from the list
+
+a
+
+b
+
+c (✔)
+
+d

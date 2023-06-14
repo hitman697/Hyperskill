@@ -1,0 +1,7 @@
+You won't get the most out of this topic if you don't use a real Linux terminal. Windows 10 users can use WSL to run Linux natively.
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+https://explainshell.com/ - paste command with parameters you don't understand and it will help you understand
+
+if you are having trouble installing tldr, check out this link:
+https://itsfoss.com/unable-to-locate-package-error-ubuntu/

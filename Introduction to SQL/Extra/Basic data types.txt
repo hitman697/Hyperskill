@@ -1,0 +1,43 @@
+1. Create a car
+The table Car has the following columns:
+
+an integer identifier
+a textual description of a color
+an amount of the annual petrol usage
+the price in US dollars
+whether it is electric
+Match the column names with the corresponding data types.
+
+color			VARCHAR(20)
+annual_petrol_use	REAL
+electricity		BOOLEAN
+id			INTEGER
+price			DECIMAL(20,2)
+
+2. Suitable datatypes
+Match the description of a column with its most suitable datatype.
+
+Weight				DECIMAL(4, 2)
+Name				VARCHAR(50)
+Numeric identifier of a user	INTEGER
+Flag if user is deleted		BOOLEAN
+
+3. Difference between FLOAT and REAL
+What is the difference between the data type FLOAT and REAL ?
+
+REAL defines the total number of digits by default but this is not the case with FLOAT
+
+4. Truth
+Which data type would you choose to store information about whether a client of an insurance company has a chronic disease?
+
+BOOLEAN
+
+5. Decimal
+Define the decimal type with 3 digits in the fractional part and 5 total digits.
+
+DECIMAL(5, 3)
+
+6. Text
+Which data type would you choose for the column street address in the table Customer?
+
+VARCHAR(200)

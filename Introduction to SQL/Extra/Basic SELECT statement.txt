@@ -1,0 +1,85 @@
+1. Query evaluation result
+What is the result of the following query?
+
+select 'Hello' as greeting, 'Data' as name;
+
+One tuple with two attributes
+
+2. Several calculations
+Write a query that evaluates 2+2, 2-2, 2*2, and 2/2. Do not change the order of values.
+
+SELECT 2+2 AS ADDITION, 2-2 AS SUBTRACTION, 2*2 AS MULTIPLICATION, 2/2 AS DIVISON;
+
+3. Syntax
+Select all valid queries.
+
+select 10, 2020 as year;
+
+SELECT 'Alice';
+
+4. Select
+Write a query that returns the string "ADMINISTRATOR" with the alias "admin".
+
+SELECT 'ADMINISTRATOR' AS admin
+
+5. Attribute aliases
+What are the attribute names of the following query? Please, keep the order of attributes specified in the query.
+
+SELECT 'Alice' AS Bob, 'Bob' AS Alice, 1 AS Two, 2 AS One;
+
+Bob, Alice, Two, One
+
+6. Bob
+In a table, there is some information on a user named Bob:
+
+ID	name	username	karma	topic
+542	Bob	B0b		4.3	IT
+Write the query that will select all information about Bob. Use column titles as aliases.
+
+You do not need to use the FROM keyword for this task. Do not forget to use quotes.
+
+
+SELECT
+    542 AS ID,
+    "Bob" AS name,
+    'B0b' AS username,
+    4.3 AS karma,
+    'IT' AS topic
+;
+
+7. Aliases
+Which of these names would be wise to use as aliases?
+
+"speed in mph"
+
+"temperature"
+
+8. In this case
+In which of these cases theSELECT command can be written in SQL?
+
+SELECT
+
+selEcT
+
+select
+
+9. Converting
+Write a query that will convert 20 hours to minutes, then use the time in minutes alias for this.
+
+SELECT 20 * 60  AS "time in minutes";
+
+10. Manager
+Write the query that will select all information about the following employee:
+
+first_name: "John"
+second_name: "Jeffery"
+salary: 20000
+department: "IT"
+Use aliases.
+
+SELECT 
+    "John" AS first_name, 
+    "Jeffery" AS second_name,
+    20000 AS salary,
+    "IT" AS department;
+

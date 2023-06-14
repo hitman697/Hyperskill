@@ -1,0 +1,33 @@
+Description
+A new program starts with a new repository, where you keep the code and history of changes. You'll create a repository with one file. You don't need to know the programming language of the given program. All you should focus on now is the git commands.
+
+Objectives
+First, initialize an empty git repository inside the repository folder, and add the main.py file to it. Commit the file to the main branch with the commit message: Hello, world.
+
+The content of the file should be the following:
+
+if __name__ == "__main__":
+    print("Helo, worlld!")
+We have some typos in our initial version of the program. Have you ever heard of bugs? However, even if you want to fix these typos right now, be patient, we'll fix them later.
+
+You can use the git config --global init.defaultBranch main command to set main as the default branch in your system settings.
+
+
+
+Install Git 
+Install VS Build Tools -> Go to individual components and type C++ and download all 2022 latest version
+Install Pycharm
+Install Plugin edu tool
+Make sure that you are "PycharmProjects\Gitman\Gitman\task\repository" in terminal
+
+Paste the below code to main.py
+
+if __name__ == "__main__":
+    print("Helo, worlld!")
+
+
+
+-> git init
+-> git config --global init.defaultBranch main
+-> git add -A
+-> git commit -m "Hello, world"

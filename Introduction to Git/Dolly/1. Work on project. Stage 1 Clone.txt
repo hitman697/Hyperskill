@@ -1,0 +1,20 @@
+Clone
+12 / 12 Prerequisites
+Introduction to Operating systems
+Command line overview
+Parameters and Options
+World Wide Web
+Starting with GitHub
+Join a study group for the project Dolly
+Discuss your current project with fellow learners and help each other.
+Description
+You have joined a new project. The project files are located in a remote repository. Your task is to clone this repository into your current working directory. The URL of the remote repository is file:///tmp/dolly.
+
+While working on this project, you will use a few Bash commands in addition to Git commands.
+Objective
+Use the suitable Git command to clone the repository.
+
+
+Code Editor 
+
+git clone file:///tmp/dolly

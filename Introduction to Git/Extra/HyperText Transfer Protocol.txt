@@ -1,0 +1,46 @@
+1. What is "P" in "HTTP"?
+What does "P" from "HTTP" indicate?
+
+set of rules by which programs or devices communicate with each other, exchange data, and handle errors
+
+2. A little of history
+Match the HTTP versions with the years when they were invented.
+
+HTTP/0.9	1991
+HTTP/1.1	1999
+HTTP/2.0	2015
+
+
+3. Not Secure
+Bob went to a site running on HTTP protocol and saw a warning «Not Secure» in his browser. What's the meaning of that?
+
+Data transfer on this resource occurs without encryption
+
+4. The advantage of HTTPS
+What is the main advantage of HTTPS?
+
+HTTPS provides secure data transfer
+
+
+5. Social Network
+Emilia is a developer of a large social network where people can create their own profile, communicate with friends and share photos. Should she transfer the site to HTTPS?
+
+She should transfer to HTTPS to make connections secure
+
+6.The technology
+
+What is the name of the technology architecture that balances the workload between the server and the customer?
+
+Client-Server
+
+
+7. Emergence of HTTPS
+
+Why was HTTPS created?
+
+Because HTTP's data transfer was unencrypted
+
+8. The payment system
+Mila wants to create her own payment system. Should she use HTTPS?
+
+Yes

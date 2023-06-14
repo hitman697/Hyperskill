@@ -1,0 +1,85 @@
+1.Script interpreters
+Look at the first lines of the different scripts and find for them right interpreters.
+
+#!/usr/bin/env bash			Bash located by env utility
+#!/usr/bin/env python3			Python
+#!/usr/bin/perl				Perl
+#!/bin/bash				Bash
+
+2.Output lines
+Which command can output text lines in Bash?
+
+echo
+
+3.Write a script with \n that will display phrases in different lines. For example, for 'Hi!' and 'Hey!' the output should be the following:
+
+Hi!
+Hey!
+
+#! usr/bin/env bash
+echo -e "Hi! \nHey!"
+
+4.The output line
+Write a script that prints the line 'Hello!' in the terminal.
+
+Sample Input 1:
+
+Sample Output 1:
+
+Hello!
+
+#! usr/bin/env bash
+    echo "Hello!"
+
+5.Missing symbols
+Lina wrote the following script:
+
+echo 'Hello, bash!'
+
+#!/usr/bin/env bash
+
+6.Sleeping program
+Command sleep stops execution of program for a specified time.
+
+Rearrange the lines to create a Bash program, which stops process execution for 7 seconds, while displaying comments about its actions.
+
+#!/bin/bash
+echo “Now will be pause for 7 seconds”
+sleep 7
+echo “Pause is completed”
+
+7.Shebang in use
+
+What is shebang used for?
+
+to specify the program to run the script
+
+8.Escape sequences option
+Which echo option allows using escape sequences?
+
+-e
+
+8. Run Bash script
+Your colleague created a script file and asked you to run it. The path to the file is /tmp/run_me.sh, but your colleague forgot to make the file executable, so choose the right way to run the script.
+
+Do not modify the content of the /tmp/run_me.sh file.
+
+solve() {
+    # add your solution here
+    bash  /tmp/run_me.sh
+}
+
+
+9. Multiple ways to do the same thing
+You've just written a script and saved it under the name useful_program.sh.
+
+Choose the commands with which you can run this program.
+
+NOTE: This script is in your current working directory.
+
+
+chmod +x useful_program.sh; ./useful_program.sh
+
+chmod +x useful_program.sh; sudo cp useful_program.sh /usr/local/bin; useful_program.sh
+
+bash useful_program.sh

@@ -1,0 +1,48 @@
+1.Right command
+
+George wants to send his work to the server and put it in the current_tasks branch. What command should he use in this case?
+
+git push origin current_tasks
+
+2.Data for everyone
+
+Where can the data be saved so that it is available to all members of the development team?
+
+remote server
+
+3.Marina made a git push to send her changes to the server. But Katie had already made many new commits before her. As a result, Marina got an error message git push rejected. Which command will help Marina fix everything and repeat the submission later?
+
+git pull
+
+4.Andrew created his own GitHub repository https://github.com/my_repository/code.git. He wants to perform the following sequence of actions:
+
+	(i)   download the repository to his local computer,
+	(ii)  make changes to it and commit them,
+	(iii) add changes to GitHub in the main branch.
+In what order should he execute the following commands?
+
+git clone https://github.com/my_repository/code.git
+git commit
+git push origin main
+
+5.Remote work
+
+Why is it convenient to use a remote repository?
+
+
+
+It stores all the project data in one place
+
+All team members have access to the current version of the project
+
+6.Get the repository
+
+Maria, Pierre, and Denis have created a remote repository. Maria needs to copy it in order to leave the first commit there. What command can she use to download the repository from the server?
+
+git clone
+
+7.Share your changes
+
+Nika made some new changes to the code and committed them. What command should she use now to upload these changes to the server?
+
+git push

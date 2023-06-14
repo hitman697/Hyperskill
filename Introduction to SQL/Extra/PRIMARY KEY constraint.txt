@@ -1,0 +1,54 @@
+1. Requirements
+What should a column have for it to be a primary key?
+
+NOT NULL
+
+UNIQUE
+
+
+2. Delete the key
+How can you delete a primary key from the table?
+
+DROP PRIMARY KEY
+
+3. Every manager is special
+Create a primary key named pk_manager on the columns first_name and last_name of the table managers. The columns first_name and last_name are UNIQUE and NOT NULL.
+
+ALTER TABLE managers
+ADD CONSTRAINT pk_manager PRIMARY KEY(first_name, last_name);
+
+4. Many methods
+How can you create a primary key named employee_id?
+
+employee_id INT PRIMARY KEY
+
+5. Correct
+
+Select all the correct statements about the PRIMARY KEY constraint.
+
+PRIMARY KEY uniquely identifies rows of a table
+
+You can define a PRIMARY KEY consisting of several columns
+
+6. Substitution
+
+Which constraints can be replaced with the PRIMARY KEY constraint?
+
+NOT NULL
+
+UNIQUE
+
+7. Suitable staff
+Problem of the day solved
+Next problem in: 23h 50m 22s
+This table employees has a constraint PRIMARY KEY pk_employees on the columns name, surname and phone.
+
+Employees table schema(https://ucarecdn.com/197f710b-fb89-4243-a669-650faa6c2bc3/)
+
+Select all the rows that you can add to this table.
+
+('Paul', 'Rae', 8560, 'HR', 32)
+
+('Ann', 'Tompson', 4000, 'IT', 45)
+
+('Ann', 'Smith', 8499, 'MA', 27)

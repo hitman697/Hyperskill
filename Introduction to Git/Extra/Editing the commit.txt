@@ -1,0 +1,54 @@
+1. Complete a command
+
+A programmer accidentally made a commit. He decided quickly, while no one is looking, to undo the last change, and used the command git checkout my_file.txt. However, something went wrong and an error occurred. What did the programmer forget to write?
+
+commit identifier
+
+2. Name the right command
+
+Which command should you use if you need to compare two commits?
+
+git diff
+
+3. The one who controls changes
+
+Who can track and modify commits?
+
+any user who has access to the repository
+
+4. What is left?
+
+A programmer did the following steps in the following order:
+
+added a text file my_file.txt with the line "Hello, world!" to the repository.
+changed the text in my_file.txt to "Hello world! This is my file."
+added the other text file new_file.txt with the line "This is my new file"
+removed my_file.txt
+commited all the changes
+What is left at the tip of the branch in the end?
+
+
+only the new_file.txt with its text
+
+5. It's a match
+
+Match the name of the command with its function:
+
+
+git log			shows the list of all commits and their IDs
+commit --amend		changes commit after making it
+git revert		rolls back all changes made in the commit
+git show		shows what's new in the commit
+git checkout		switch to a branch or a commit
+
+6. Right character number
+
+How many characters from the identifier string is enough to find the desired commit with it?
+
+first few characters
+
+7. Fix a commit error
+
+A programmer has just added a new code file to the repository and saved the changes to the server. It was the last commit he made. But after a minute it turned out that he had mixed up the files. What command should he use to fix the error and to revert the last wrong commit?
+
+git revert HEAD

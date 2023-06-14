@@ -1,0 +1,34 @@
+1. Set of tables
+Data organized into a set of tables that can be accessed by their individual names is called...
+
+A database
+
+2. What to do
+Select the name of the statement in SQL that tells the system what should be done with the table.
+
+Query
+
+3. Census data
+Write a query that extracts all the data from the census table.
+
+SELECT * FROM census;
+
+4. SQL
+What does the abbreviation SQL stand for?
+
+Structured Query Language
+
+5. Case sensitivity
+Are keywords like SELECT,UPDATE,INSERT case sensitive?
+
+No
+
+6. Quantity
+Which SQL operator should you use to count the amount of something?
+
+COUNT
+
+7. Statement terminator
+What is a statement terminator?
+
+It's a symbol at the end of the query. In case of SQL, it's a semicolon (;).

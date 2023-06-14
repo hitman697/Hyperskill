@@ -1,0 +1,43 @@
+1.Put actions in the right order
+
+Arrange the basic Git approach actions in the right order.
+
+change files in working directory
+add files to the staging area
+commit changes
+
+2.Config file content
+What's in the Git config file?
+
+settings for working with your repository
+
+3.Working directory
+
+What is stored in the working directory? Choose one right answer.
+
+project version image
+
+4.Git folder content
+What the .git folder does NOT contain?
+
+project documentation
+
+5.Where are the changes stored?
+
+All the changes that are made in Git are stored in a local
+
+database
+
+6.Choose the right commit definition
+What does commit mean?
+
+saving your current project version
+
+7.File stages
+Name three main states of a file in Git.
+
+modified
+
+committed
+
+staged

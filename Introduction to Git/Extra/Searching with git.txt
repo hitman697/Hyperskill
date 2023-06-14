@@ -1,0 +1,45 @@
+1. Find a word
+Tim wants to find all new commits containing a word new in the modified code.py. What command does he need for this?
+
+git log -G new code.py
+
+2. Readme
+Tim found the git log --all --grep='README' command in documentation but doesn't understand what it means. What does this command do? Choose the right answer.
+
+finds commits with the keyword in the description
+
+3. Git blame output
+What you can find out about the changes using the git blame command? Choose several correct answers.
+
+commit time and date
+
+author's name
+
+commit hash
+
+4. Git log filename
+What will happen after calling git log code.py? You will see
+
+all commits with changes in code.py
+
+5. Git log last commit
+Sonya continues checking the commits in code.py, and now wants to see the last commit. Which command she should choose among those we have learned in this topic?
+
+git log -n 1 code.py
+
+6. Git log show
+Sonya checks the commits to the project. She started checking with the file code.py, applied the command git blame and got the following result:
+
+^36a1d7 (Jonh User 2020-11-17 12:10:07 -0500  1)
+Then she used git show --name-only ^36a1d7
+
+What result she is supposed to get? Choose the right answer.
+
+Commit message with changed files list
+
+7. Author information
+What commands should be used to get information about the author of the commit?
+
+git show
+
+git log

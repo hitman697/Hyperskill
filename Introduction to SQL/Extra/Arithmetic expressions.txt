@@ -1,0 +1,90 @@
+1. Circumference
+Write a query that finds the circumference of a circle with a radius equal to 15.
+
+The circumference is calculated using the formula: C = 2πR. Use π equal to 3.14.
+
+SELECT 2 * 3.14 * 15;
+
+2. Area of a triangle
+Write a query that evaluates the area of a triangle with base 5 and height 4.
+
+The area of a triangle is calculated using the formula: base * height / 2.
+
+SELECT (5 * 4) / 2 AS "AREA OF A TRIANGLE";
+
+3. Exams
+John has such Math subject scores: 4, 5, 4, 4, 3, 5, 4. Find the average score by this subject.
+
+Tip: Average score calculated as sum of all scores / quantity of scores
+
+SELECT (4 + 5 + 4 + 4 + 3 + 5 + 4) / 7 AS "AVERAGE SCORE";
+
+4. Expression in a query
+Choose the correct pattern for evaluating an expression in SQL.
+
+SELECT expression;
+
+5. Discriminant
+We have a quadratic equation: 45 * x^2 + 74 * x + 16 = 0
+
+Write a query that finds the discriminant of this equation.
+
+Discriminant formula is D = b^2 − 4 * a * c. Where a, b, c are the first, second and third equation coefficients.
+
+SELECT  POW(74, 2) - 4 * 45 * 16 AS DISCRIMINANT;
+
+6. Logic expression
+Write a query that returns true value without using the literal TRUE.
+
+SELECET 1;
+
+7. Comparison
+Write a query that returns true if the word "expert" precedes "expression" in lexicographical (alphabetical) order.
+
+SELECT "expert" < "expression"
+
+8. Query
+What is the result of the query below?
+
+SELECT (15+1)%9;
+
+7
+
+9. Division and remainders
+Which SQL operator can be used to find the remainder of integer division?
+
+%
+
+10. Arithmetic operators
+What arithmetic operators does SQL support?
+
+*
+
+-
+
++
+
+/
+
+11. Select the wrong
+Select the queries where the arithmetic expressions are written wrong.
+
+SELECT 8 // 7;
+
+SELECT 15 == 3.6
+
+SELECT (5 * 3) /= 5;
+
+12. Time Lord
+Convert 475200 seconds to hours using a SQL arithmetic expression.
+
+SELECT 475200 / 3600 AS "HOUR";
+
+13. String functions
+Match these function calls with their corresponding results.
+
+concat('ba', 'nana')		'banana'
+reverse('banana')		'ananab'
+substr('banana', 3, 2)		'na'
+char_length('banana')		 6
+replace('banana', 'n', 'l')	'balala'

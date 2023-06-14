@@ -1,0 +1,68 @@
+1.File properties
+Below are properties of some file. Match each property with its name.
+
+example.txt		File name
+TXT			File extension
+Plain Text File		File type
+168 bytes		File size
+
+2.Save a text file
+You need to create and save a text file.
+
+Which one is the correct file extension for this task?
+
+.txt
+
+3.File attributes
+
+What are file attributes for?
+
+They tell the system what it can do with a file.
+
+4.File paths
+
+Choose 2 types of file paths.
+
+relative
+
+absolute
+
+5.General file information
+
+What information might be included in file metadata?
+
+last access time
+
+file attributes
+
+file size
+
+creation time
+
+6.What is a file?
+
+A file is
+
+a data container
+
+7. What is the difference?
+
+How is a relative path different from an absolute one?
+
+It does not start with the root directory.
+
+8. Why do we need a file extension?
+
+A file extension is useful for
+
+distinguishing the file format
+
+9. Files
+What is the file format?
+
+a type of the file content
+
+10. Attributes
+What are file attributes?
+
+Metadata that define file system behaviour.

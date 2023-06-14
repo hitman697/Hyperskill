@@ -1,0 +1,20 @@
+https://pgexercises.com/
+https://www.sql-ex.ru/?Lang=1
+https://sqlzoo.net/
+The sites to practice sql
+https://sqlbolt.com/
+https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi
+https://en.wikipedia.org/wiki/ACID
+https://stackoverflow.com/questions/224462/storing-money-in-a-decimal-column-what-precision-and-scale
+https://www.digitalocean.com/community/tutorials/sql-data-types
+https://stackoverflow.com/questions/22473179/query-to-create-a-new-table-to-a-specific-database-in-sql
+https://sqlite.org/lang_altertable.html
+https://www.youtube.com/watch?v=B5r8CcTUs5Y
+https://www.cockroachlabs.com/docs/stable/foreign-key.html
+https://en.wikipedia.org/wiki/Many-to-many_(data_model)
+**********https://www.sqlitetutorial.net/***************
+http://sqlfiddle.com/
+https://www.db-fiddle.com/
+https://www.geeksforgeeks.org/sql-literals/
+https://www.freecodecamp.org/news/sql-select-statements/
+https://www.ibm.com/docs/en/informix-servers/14.10?topic=concepts-selection-projection

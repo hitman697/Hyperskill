@@ -1,0 +1,71 @@
+1. Backend and frontend
+How does the interaction between frontend and backend work in the most basic variant? Place the actions in the correct order.
+
+Client sends a request to the server to retrieve or modify data using the HTTP protocol.
+Backend processes this request and returns the response via HTTP.
+Frontend receives the response and processes it, and then displays the result to the user.
+
+
+2. Developer
+What is the name of the specialist who works on both the server and the client sides?
+
+Full-stack developer
+
+
+3. Data format
+What is the most popular format for exchanging data between a client and a server?
+
+JSON
+
+
+4. Development
+What other customary names do frontend and backend development have?
+
+Frontend development		client-side programming
+Backend development		server-side programming
+Non-existent name		side programming
+
+5. Interaction
+
+What do backend and frontend usually interact through?
+
+HTTP requests
+
+6. Web products
+What does a web developer create?
+
+websites and web applications
+
+7. Separation
+
+Why might we need to separate the client side from the server side? Choose all possible answers.
+
+To be able to make changes independently to the frontend and backend logic.
+
+We need a server to store and structure data.
+
+8. Full-stack developer
+Which areas of Web Development does a full stack developer specialize in?
+
+Server-side
+
+Client-side
+
+9. Web development
+
+Which work tasks are usually assigned to the frontend developer and which tasks are assigned to the backend developer?
+
+											Frontend developer	Backend developer
+
+Write the basic business logic of the application								✔
+Make the site display correctly on devices with different screen sizes			✔
+Organize information storage in databases									✔
+Write the logic of interaction with users						✔
+
+10. Markup languages
+
+Which of these are markup languages?
+
+XML
+
+HTML

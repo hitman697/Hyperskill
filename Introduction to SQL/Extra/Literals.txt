@@ -1,0 +1,70 @@
+1. Extract boolean literal
+Write a query that extracts FALSE as the result value.
+
+SELECT FALSE OR ("1" != 1)
+
+2. Greetings
+Write a query that extracts the text "Hello, Data!" as a result.
+
+SELECT "Hello, Data!"
+
+3. Extract decimal literal
+Write a query that returns 256 as a result of DECIMAL(10, 2) type.
+
+SELECT
+CAST(256 AS DECIMAL(10,2));
+
+4. Types of literals
+Match the literals with their types.
+
+		Integer		String		Boolean		Decimal		Real
+
+"Be happy!"			✔	
+-512		✔
+False						✔
+3.2								✔
+0.4e3										✔
+
+5. Literals meaning
+What are constant values called in SQL?
+
+literals
+
+6. String literals
+Select all the correct string literals.
+
+'John''s birthday'
+
+"John's birthday"
+
+'Hello, Data!'
+
+"Hello, Data!"
+
+7. Numeric literals
+Select all the correct numeric literals.
+
++8000
+
+0.4e3
+
+-256.0
+
+8. SELECT literal
+Find the query that contains a mistake.
+
+SELECT 'Hello, World!;
+
+9. Select numeric literal
+Write a query that returns 1024 as a result.
+
+SELECT 1024;
+
+10. Numeric literals types
+Select all the numeric literals data types.
+
+REAL
+
+DECIMAL
+
+INTEGER

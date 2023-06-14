@@ -1,0 +1,59 @@
+1. False Statements
+Which of the following statements about DBMSs is false?
+
+With each update, the previous data is lost forever
+
+2. Reasonable solution
+Your team needs to quickly set up a database for a new application. What solution would you offer to the team?
+
+use existing DBMS
+
+3. What is the name of the software we use to access a database and control data in it?
+
+Please use the abbreviation.
+
+DBMS
+
+4. Metadata
+What does metadata describe?
+
+Structural and statistical information
+
+5. Database
+
+What is a database?
+
+Structured data for fast retrieval by a computer
+
+6. Pros of using databases
+
+Using databases and their management systems, you can:
+
+Store, retrieve and update data
+
+Access data from different computers
+
+Apply rules for data consistency
+
+7. DBMS
+
+What advantages do we get with database management systems?
+
+Some DBMS provide simple login/password authentication
+
+DBMS let you control who can work with your data and what access they have
+
+8. Standard
+
+Despite the fact that the syntax for different databases may differ, most of them have common standards. Which standard do most of relational databases use?
+
+SQL
+
+9. Functionality
+What can you do using DBMSs?
+
+Give/restrict access to data
+
+Read/update/delete data
+
+Get metadata

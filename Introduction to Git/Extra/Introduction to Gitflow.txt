@@ -1,0 +1,54 @@
+1. The main branches
+
+Select the two main branches in the Gitflow
+
+master
+
+develop
+
+2. The branch name
+
+What is the name of the branch on which the work on the project starts?
+
+develop
+
+3. Branches content
+
+Match branches with their content. What do they contain? Please note that one of the definitions is superfluous.
+
+develop		most recent published changes
+master		the source code ready to production
+		all files from your desktop
+
+
+4. New code version
+
+You have finished working in develop branch and now you want to unite it with the master branch. What should you do then?
+
+merge all changes into master
+
+5. First branch
+
+Which branch is created automatically immediately after initializing the gitflow repository?
+
+master
+
+6. First steps to start working with gitflow
+
+What two steps are enough to get started with gitflow?
+
+initialize a gitflow repository
+
+install gitflow
+
+7. What is Gitflow?
+
+Gitflow is
+
+a method for working with branching.
+
+8. Start working with gitflow
+
+Write a command to start working with git flow after installing it
+
+git flow init

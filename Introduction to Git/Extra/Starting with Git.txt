@@ -1,0 +1,81 @@
+1.Tell git your name
+Ayubu wants to set their name in git settings for all their repositories in the system. What command should they type?
+
+git config --global user.name "Ayubu"
+
+2.What is Git?
+
+Git is
+
+a set of console utilities to store, control, change, and merge your codes
+
+3.Git check
+
+Let's check if you've successfully installed git. Run the git --version command in terminal and write the output.
+
+Write the answer in the following manner: git version <version number>
+
+For example, git version 10.28.0
+
+git version 10.40.0
+
+4.Git settings
+
+What two main git settings do you need to adjust before you start working?
+
+email
+
+name
+
+5.What is Git?
+
+What can you do with Git?
+
+track changes in your code
+
+record changes in files
+
+add files to GitHub
+
+6.Git repositories
+
+
+What two kinds of repositories does git have?
+
+local
+
+remote
+
+7.Choose the right answer
+
+Git allows storing data
+
+on a special online service
+
+on your hard drive
+
+8.Choose the right definition
+
+What are the folders on your hard drive where Git stores data called?
+
+repository
+
+9.Patience and perseverance
+Ayubu needs to set their email ayubu@barua.ardhi in git settings for all their repositories in the system. Type the command which they should use.
+
+Do not put more than one space between words.
+
+git config --global user.email ayubu@barua.ardhi
+
+10.What is wrong here?
+Find mistakes in these commands for setting name and email for git.
+
+git --config --global user-name "Kaitukino"
+
+git --config --global user-email kaitukino@mera.whenua
+
+
+
+--config instead of config in both lines
+
+user-name and user-email instead of user.name and user.email

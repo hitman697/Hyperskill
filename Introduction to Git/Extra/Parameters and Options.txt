@@ -1,0 +1,42 @@
+1.Pushd and popd
+Change your directory to any other than the root directory and run it in your terminal:
+
+# Windows
+pushd \
+popd
+
+# Linux/macOS
+pushd /
+popd
+What has happened?
+
+You changed your location to the root directory and then returned
+
+2.New Directory
+What command do you need to use to create a new directory?
+
+mkdir <directory_name>
+
+3.Parent Directory
+What is a parent directory?
+
+the directory one level above the current directory
+
+4.Open CLI and type cd /. What happens?
+
+you have moved to the root directory
+
+5.Recursive list of directories
+Open the CLI and type dir /? on Windows or man ls on Unix. Now you see the manual. What's the correct way to list the content of a directory and all of its subdirectories?
+
+dir /S (Win), ls -R (Linux/macOS)
+
+6.Command with parameters
+Which of the following commands cannot be used without parameters?
+
+mkdir
+
+7.Manual
+Which one of the following commands helps you get the manual for other commands?
+
+help on Windows and man on Linux/macOS

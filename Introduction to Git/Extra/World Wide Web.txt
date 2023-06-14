@@ -1,0 +1,75 @@
+1.Internet vs Web
+Is there a difference between the Internet and the World Wide Web? If so, what is it?
+
+The Internet connects computers around the world, and the Web disseminates information.
+
+2.Web history
+Match different versions of the World Wide Web with when they were used.
+
+Web 1.0		~1991-1999
+Web 2.0		~1999-2007
+Web 3.0		~2007-current time
+
+3.Connection chain
+Arrange the options in the order in which the user receives information from the Web.
+
+->Picking up a user device
+->Establishing an internet connection
+->Search in a browser
+->Browsing a web site with its respective web pages
+
+4.View sites
+What programs are used to view websites?
+
+browsers
+
+5.Abbreviation
+Select all abbreviations for the World Wide Web term from the list:
+
+W3
+
+WWW
+
+Web
+
+6.Web prefix
+Which prefix is used to indicate that the address of a website belongs to the Web?
+
+www
+
+7.The relationship
+Explain the relationship between the Web and the Internet.
+
+The Web is a way of obtaining information over the Internet
+
+8. Web concepts
+
+Match the concepts and their meanings.
+
+
+The World Wide Web		is a collection of information resources scattered around the world that are linked together by reference
+
+A website			is a group of web pages that share a common content theme, design and links to each other
+
+A web page			is a single document on the Internet that contains text, graphics, sound, and so on
+
+A browser			is a special program for downloading and viewing web pages
+
+9. Stage of development
+
+Sort the WWW development stages from top to bottom.
+
+People can only search and read information posted on the Internet
+People can communicate with each other or share their content
+Improved content analysis and accelerated time of its finding
+
+
+10. Browsers
+
+Which of these programs are web browsers?
+
+Firefox
+
+Safari
+
+Chrome

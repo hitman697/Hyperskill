@@ -1,0 +1,57 @@
+1.GitHub's UI
+Match tabs from GitHub UI and their meanings.
+
+Issues		contains ideas, enhancements, bugs, questions, and so on.
+Pull requests	contains proposals to make some changes in the project
+Insight		contains some stats and information about this repository.
+
+2.Rename
+From October 1, 2020, the master branch on GitHub has been renamed. What is the new name of this branch?
+
+main
+
+3.Issue
+Enter a link to any issue of any repository on GitHub.
+
+https://github.com/hyperskill/intro-to-github/issues/1
+
+4.Find a repo on GitHub
+Enter a link to any repo hosted on GitHub.
+
+https://github.com/hyperskill/intro-to-github/
+
+5.Not in the repo
+What is the name of the file in which directories and files that should not be pushed to the repository are written?
+
+.gitignore
+
+6.What is a repository?
+A GitHub repository is
+
+a container for project and its data
+
+7.Operations with a project
+Suppose, you have found an interesting project on GitHub. You are not a collaborator of this project.
+
+Which operations are available for you?
+
+Create an issue.
+
+Open files within the code section.
+
+8.Registration on GitHub
+Enter a link to your account in GitHub. You may copy it from your browser.
+
+https://github.com/hyperskill
+
+9. Explore a project repository
+Imagine you have found some project repository on GitHub. Where can you see information about the project to understand what it is about?
+
+in Wiki tab
+
+in README.md file
+
+10. Make a change
+Create a fork of our repository, make some changes there and create a pull request. Give a link to your PR as the answer to this task.
+
+https://github.com/hyperskill/intro-to-github/pull/1

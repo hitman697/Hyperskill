@@ -1,0 +1,69 @@
+1. Change your current directory
+Write a command that will change your current /tmp directory to the /tmp/apps.
+
+Sample Input 1:
+
+Sample Output 1:
+
+/tmp/apps
+
+function solve() {
+    # add your solution here
+    cd apps
+}
+
+2. What does the pushd command do?
+The pushd command
+
+adds directories' paths to the stack
+
+3. View the stack
+What command do you need to use to view the stack content?
+
+dirs - v
+
+4. Working with a stack
+You opened the terminal in your working home directory. Now you want to add the path to the ~/tests directory to the stack. What command will help you do it?
+
+pushd ~/tests
+
+5.Pop the directory off a stack
+There is a stack of directories that looks like this:
+
+$ dirs -v
+ 0  ~/work
+ 1  ~/project
+ 2  ~/data
+ 3  ~
+Choose the right command that will pop the /data directory off the stack. Note that other directories should be kept in the stack.
+
+popd +2
+
+6. Go back
+You have a project directory called /project/. This directory contains two folders:
+
+src
+images
+You are in the /project/images/ directory now. Write a command that will change this directory to /project/src.
+
+cd ../src
+
+7. The main directory
+
+What is the name of the main Linux directory, which contains all other directories and files?
+
+root
+
+8. The current directory
+What is the name of the command with which you can determine the current directory?
+
+pwd
+
+9. Return to the home directory
+
+Imagine that you are in the /home/user/documents/project/datasets subdirectory and you need to go back to the /home/user directory. What two commands you can use to do this?
+
+
+cd
+
+cd ~

@@ -1,0 +1,67 @@
+https://github.com/
+https://www.codebasehq.com/
+https://sourceforge.net/index/
+https://sourcehut.org/
+https://bitbucket.org/
+https://gitlab.com/gitlab-com
+
+1. Windows
+There are several ways to install Git on Windows. First, you can go to the official Git site(a), and the download will start automatically. After installation, you need to select the options you need in the settings.
+
+For unattended installation, you can also use the Git Chocolatey package(b).
+
+Another easy way to install Git is to install GitHub for Windows. Its installer includes command-line utilities and GUI Git. You can download GitHub for Windows from the GitHub Desktop website(c).
+
+(a)http://git-scm.com/download/win
+(b)https://chocolatey.org/packages/git
+(c)https://desktop.github.com/
+
+2. Linux
+
+You can just open a terminal and install the application using your distribution package manager. If you have Fedora (or another similar distribution such as RHEL or CentOS), you can use dnf:
+
+$ sudo dnf install git-all
+If you have a Debian-based distribution like Ubuntu, try apt:
+
+$ sudo apt install git
+
+
+3. macOS
+
+There are several ways to install Git on Mac.
+
+You may install the Xcode Command Line Tools by typing the following command in your terminal:
+
+xcode-select --install
+Then you can simply check if Git is already installed:
+
+$ git --version
+If Git is not installed, you will be prompted to install it.
+
+The other way is to use homebrew, which can be installed from the terminal using the command below:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+More information on homebrew can be found on the official homebrew website. After installing it, run in the terminal:
+
+brew install git
+You can also install Git when installing GitHub for Mac. Their GUI Git tool has the option to install command line tools as well. You can download the GitHub client for Mac.
+
+https://brew.sh/
+https://desktop.github.com/
+
+
+##Git settings
+So, we have successfully installed Git, now we need to adjust some settings. There are quite a few options to play with, but we'll set up the most important ones: our username and email address. Open the terminal and run the commands:
+
+git config --global user.name "My Name"
+git config --global user.email myEmail@example.com
+Now each of our actions will be marked with your name and e-mail address. Thus, users will always know who is responsible for certain changes: this brings order!
+
+
+##Git check
+Usually, the installation is successful, but just in case, we recommend you check that the latest version of Git has actually been installed by running the git --version command in the terminal. The result will be something like the following:
+
+git version 2.33.1
+Versions are updated, so you may have a different one. In our example, this is the 2.33.1 version.
+
+It means that Git is installed, and you can start working with it.

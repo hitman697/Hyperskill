@@ -1,0 +1,72 @@
+1. Command syntax
+Use the man command to find the right head command syntax. Choose the corresponding syntax description below.
+
+head [OPTION]... [FILE]...
+
+2. What does it do?
+Use the whatis command to find out what the ping command does. Choose the correct answer below.
+
+sends ICMP ECHO_REQUEST to network hosts
+
+3. What can the command do?
+Use the tldr command to find out what the sudo command can do. Choose all the correct answers.
+
+List the allowed (and forbidden) commands for the invoking user
+
+Run a command as another user and/or group
+
+4. What is the whatis command?
+What does the whatis command return as a result?
+
+information about what a particular command does
+
+5. Man page sections
+Which sections does any man page have?
+
+SYNOPSIS
+
+DESCRIPTION
+
+EXAMPLE
+
+NAME
+
+6. What does TLDR mean
+TLDR stands for
+
+Too Long Didn't Read
+
+
+7. Who is who?
+Here is a piece of information about the cat command, found using the whatis, man, and tldr commands. Connect A, B, and C with the corresponding commands.
+
+A:
+
+  cat
+
+  Print and concatenate files.
+  More information: https://www.gnu.org/software/coreutils/cat.
+
+  - Print the contents of a file to the standard output:
+    cat file
+
+  - Concatenate several files into the target file:
+    cat file1 file2 > target_file
+B:
+
+cat (1)              - concatenate files and print on the standard output
+C:
+
+CAT(1)                           User Commands                          CAT(1)
+
+NAME
+       cat - concatenate files and print on the standard output
+
+SYNOPSIS
+       cat [OPTION]... [FILE]...
+
+
+
+A		tldr
+B		whatis
+C		man

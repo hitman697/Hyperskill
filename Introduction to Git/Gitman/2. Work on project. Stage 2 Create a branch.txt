@@ -1,0 +1,53 @@
+Description
+You'll continue to work with a program in the new develop branch. This branch usually has the latest code version. When developers finish the current work and test all the changes, they merge this branch with the main one.
+
+Be wary of deleting the develop branch. It should stay in the repository even after the merge because it's the stream of the latest changes; you can keep track of them.
+Follow the objectives and do not rush to merge with the main branch. You'll do it a few steps later.
+
+Objectives
+Start with creating the develop branch using the git-flow command or create it with plain git. In this branch, you should alter the content of the main.py file. Now, the program asks for your name and greets you after.
+
+def main() -> None:
+    name = input("What's your name? ")
+    print(f"Hello, {name}!")
+
+
+if __name__ == "__main__":
+    main()
+You can play around with the program running it as python main.py in the terminal. Then commit the latest version in the develop branch with the commit message "Greet user by the name".
+
+Do not alter any other branches, and do not merge the develop branch with the main.
+
+Please do not modify the given code.
+
+
+git branch develop
+git flow init
+
+Then select 
+
+		Branch name for production releases: [main] 
+
+		Which branch should be used for integration of the "next release"?
+		   - develop
+
+and then select all the default names, no need to do anything
+
+git checkout develop
+
+change the contents of main.py to 
+
+def main() -> None:
+    name = input("What's your name? ")
+    print(f"Hello, {name}!")
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+git add .
+git status
+git commit -m "Greet user by the name"

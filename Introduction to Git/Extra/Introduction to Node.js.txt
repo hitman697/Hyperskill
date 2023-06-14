@@ -1,0 +1,61 @@
+1. Node error
+Mike is new to Node.js. He read the theory and now wants to apply his knowledge. He gets the following error while trying to run the node --version command:
+
+'node' is not recognized as an internal or external command, operable program or batch file
+
+What would be your first suggestion to him?
+
+Check if Node is installed properly and try to delete then reinstall it.
+
+
+2. Version
+Which version of Node.js is the best one for commercial development?
+
+LTS
+
+
+3. V8 engine
+What is true about the V8 engine?
+
+It compiles JavaScript code into machine code.
+
+It is used in Google Chrome.
+
+
+4. Node.js app
+You want to create a cool project using solely Node.js. Which of these can you build using only Node.js?
+
+A telegram bot
+
+
+5. Advantages
+What are the advantages of Node.js?
+
+The ability to use npm.
+
+Single-threadedness.
+
+Asynchronicity.
+
+
+6. Node commands
+Try to guess what each Node.js command-line does. You may run them on your machine or turn to Node.js Docs.
+
+node --help			Print all node-line commands
+node --check			Check the syntax of the script
+node --v8-options		Print V8 command-line options
+
+
+7. Commands
+
+What commands can you use in the terminal to check which version of Node.js is installed on your device?
+
+node --version
+
+node -v
+
+
+8. Definition
+What is Node.js?
+
+It's a cross-platform runtime environment to execute JavaScript code outside of a browser.

@@ -1,0 +1,45 @@
+1. Delete database
+Select the query that deletes the database named shop_info.
+
+DROP DATABASE shop_info;
+
+2. We don't need no Education
+Delete the table named education with columns name VARCHAR(20), school_number INT, and university VARCHAR(20).
+
+DROP TABLE education;
+
+3. Staff information
+Create a table named staff with these columns:
+
+first_name (will store a string with a maximum length of 50 characters)
+last_name (will store a string with a maximum length of 50 characters)
+badge_id (will store a number)
+department (will store a string with a maximum length of 30 characters)
+position (will store a string with a maximum length of 15 characters)
+
+CREATE TABLE staff (
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    badge_id INT,
+    department VARCHAR(30),
+    position VARCHAR(15)
+);
+
+4. Correct query
+Select the query that creates a database named persons.
+
+CREATE DATABASE persons;
+
+5. DROP TABLE queries
+
+Select the correct statement about DROP TABLE queries.
+
+DROP TABLE deletes the table and all the data inside the table
+
+6. Statements
+Match the SQL commands with the actions that they perform.
+
+Delete the database		DROP DATABASE
+Delete the table		DROP TABLE
+Create a table			CREATE TABLE
+Create a database		CREATE DATABASE

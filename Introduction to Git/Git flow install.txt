@@ -1,0 +1,10 @@
+When it is more or less clear what a Gitflow is and how it works, you can start practicing. And first, of course, you need to install it. To install Gitflow on Linux, run the following command:
+
+$ sudo apt-get install git-flow
+To install on a Mac, open a terminal and run:
+
+$ brew install git-flow-avh
+For those who have windows, Git for Windows(https://gitforwindows.org/) includes Git-flow, but if you want an automated install, follow the automated installation instructions.
+
+Windows automated installation:
+https://github.com/nvie/gitflow/wiki/Windows

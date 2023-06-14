@@ -1,0 +1,68 @@
+1. Website
+What can you find on the MySQL website?
+
+MySQL products documentation
+
+Download links and installation instruction
+
+2. Operating system
+On which operating systems you can run MySQL?
+
+macOS
+
+Linux
+
+Windows
+
+3. RDBMSs
+Which of these are relational database management systems?
+
+Microsoft SQL Server
+
+MySQL
+
+PostgreSQL
+
+4. What is it
+What is MySQL?
+
+Relational database management system
+
+5. Correct statements
+Select the correct statements about the disadvantages of MySQL.
+
+MySQL is not efficient in handling very large databases.
+
+MySQL doesn't have good developing and debugging tools.
+
+6. Feel the difference
+
+Select the correct statements about SQL and MySQL.
+
+					SQL	MySQL
+It's a Query Language.			✔
+It's a Database Management System.		✔
+
+
+7. Functions
+What can you do with data using database management systems?
+
+view the data
+
+add new records
+
+search the data
+
+delete the records
+
+8. That's what I need
+
+Why is MySQL good for creating a system where users can safely transfer their money?
+
+High security
+
+9. Debug
+
+Why is debugging difficult in MySQL?
+
+MySQL doesn't have appropriate tools for it.

@@ -1,0 +1,13 @@
+check both those links 
+https://dev.mysql.com/doc/refman/8.0/en/floating-point-types.html  ( REAL as a synonym for DOUBLE )
+https://dev.mysql.com/doc/refman/8.0/en/fixed-point-types.html  (DECIMAL)
+
+in short words
+REAL save the value as approximation (rounding) but DECIMAL save it as exact value 
+so if you going to save  monetary data 
+also
+"Because floating-point values are approximate and not stored as exact values, attempts to treat them as exact in comparisons may lead to problems."
+
+check this video to understand how the float/double saved 
+https://www.youtube.com/watch?v=ajaHQ9S4uTA
+it's about java but same concept apply for REAL in sql

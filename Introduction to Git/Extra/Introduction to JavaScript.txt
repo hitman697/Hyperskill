@@ -1,0 +1,28 @@
+1. Is it Java?
+How is Javascript related to Java?
+
+It was just a marketing move, JavaScript is not related to Java.
+
+2. Abbreviated
+Select the abbreviated variant of the name of JavaScript programming language.
+
+JS
+
+3. I like JavaScript!
+Display the I like JavaScript! phrase using console.log based on the code from the theory.
+
+Tip: Note: words and symbols must match 100%, so capital letters, spaces and other symbols are important.
+
+
+console.log("I like JavaScript!");
+
+
+4. Programs
+What are the programs written in JS called?
+
+scripts
+
+5. Standard
+What is the name of the standard which JavaScript is based on?
+
+ECMAScript

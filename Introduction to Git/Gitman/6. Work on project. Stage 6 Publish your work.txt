@@ -1,0 +1,20 @@
+Description
+This program may seem pretty simple if you have any programming experience, but why not share it though? Let's create a GitHub repository and push our main branch to it! When you've finished, you can continue to work on the program by yourself or encourage your friends to send pull-requests with new features.
+
+Objectives
+Now, let's go back to the main branch. Merge the develop branch to the main. After you finish all the operations, you'll have the same history of commits in both the main and develop branches. The history stays clean, and you can follow it with the command git log if you are curious enough!
+
+It's time to create a GitHub account if you don't have one already. Create a new repository in your account, and do not add any additional files like README; you can do it later if you want.
+
+After you create an empty repository, run this command in your terminal, where <your_username> is your nickname in Github, and <your_repository> is the name of the repository you've created:
+
+git remote add origin https://github.com/<your_username>/<your_repository>
+The code snippet below shows you how to push your local repository to the remote. Tests won't check this part, but we strongly recommend you publish your repo to a public resource to practice it.
+
+git push -u origin main
+That's it. From now on, you can use the git + GitHub bundle for all your projects. It makes the development in distributed teams easier and helps you keep the history of changes made to the code.
+
+
+git remote add origin https://github.com/<your_username>/<your_repository>
+
+git push -u origin main

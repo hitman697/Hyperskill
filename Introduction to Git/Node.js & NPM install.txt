@@ -1,0 +1,39 @@
+##Installing Node.js
+
+Before you start using Node.js, you need to install it. This can be done at the official site(https://nodejs.org/en/download/). There you can find versions of Node.js for your operating system. The nodejs.org(https://nodejs.org/) site gives you the option to install 2 categories of Node.js versions: LTS and Current.
+
+nodejs.org site on the downloads page with vary of download methods of Node.js
+
+LTS stands for Long Term Support. LTS versions are usually more stable because developers avoid trying all kinds of new features when releasing them. Therefore, it's a good choice for commercial development. In contrast, Current versions are ahead of LTS in terms of functionality. This is a good choice when you are building a personal project or want to experiment with new features.
+
+Check Installation
+
+To check if the correct version of Node.js is installed on your computer, you can type
+node --version or node -v in the terminal.
+
+node --version
+v14.16.0
+
+node -v
+v14.16.0
+If you get the version number after running the command, it means that your installation was successful and you can start using Node.js.
+
+
+###Installing NPM
+
+If you already have Node.js, you're likely to have npm as well. To check, just invoke the npm -v or npm --version commands in the terminal. You can use it to find out the version of the npm installed:
+
+npm -v
+9.5.1
+If for some reason you don't have npm or you haven't installed Node.js yet, follow this official guide(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and install them both.
+
+Note that npm -v and npm --version are the same commands. The npm -v is a shorthand command with a single dash -, and npm --version is the long one with a double dash --.
+
+https://www.npmjs.com/
+
+The list of NPM command: https://docs.npmjs.com/cli/v7/commands
+
+Nodejs: https://hyperskill.org/learn/step/12691
+NPM:    https://hyperskill.org/learn/step/13256
+npx:    https://hyperskill.org/learn/step/16373#useful_link
+Commitlint: https://hyperskill.org/learn/step/26292#commitlint

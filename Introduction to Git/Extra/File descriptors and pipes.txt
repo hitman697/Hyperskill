@@ -1,0 +1,91 @@
+1. Busy descriptors
+
+Which files are used for the most basic actions and always have the same file descriptors from 0 to 2?
+
+stderr
+
+stdin
+
+stdout
+
+2. Defining descriptors
+
+What is a descriptor?
+
+a number that indicates a IO resource, e.g. a file
+
+3. Redirect the output
+
+Write a script that will redirect the stdout of the run command to the /tmp/logs.txt file.
+
+Sample Input 1:
+
+Ready
+Sample Output 1:
+
+Ready
+
+solve() {
+    run > /tmp/logs.txt # add your redirections here
+}
+
+4. Change file content
+
+Write a program that will change the content of the /tmp/file.txt to I am the bash master! to make us know you've mastered the topics well!
+
+Sample Input 1:
+
+Hello, world!
+Sample Output 1:
+
+I am the bash master!
+
+solve() {
+    # add your solution here
+    echo "I am the bash master!" > /tmp/file.txt
+
+}
+
+5. Add new line in a file
+
+Veronica maintains a to-do list in the file my_chores.txt. It is already written there that she needs to finish writing her report and walk her dog. But she remembers that she also needs to go to the store and buy food. She decides to add this task to the file. What command should Veronica use?
+
+
+echo "Buy some food" >> my_chores.txt
+
+6. Add new content
+
+The programming teacher, Mr. Smith, has a list of his students. He keeps this list in /tmp/students.txt file. Jerry has just joined Mr. Smith's class. Write a program that will add Jerry to the list of other students.
+
+Sample Input 1:
+
+Dina
+Bob
+Katy
+Sample Output 1:
+
+Dina
+Bob
+Katy
+Jerry
+
+solve() {
+    # add your solution here
+    echo -e "\nJerry" >> /tmp/students.txt
+
+}
+
+7. Redirect errors
+
+Write a script that will redirect the stderr of the run command to the /tmp/errors.txt file.
+
+Sample Input 1:
+
+[warn] someone tried to access your computer
+Sample Output 1:
+
+[warn] someone tried to access your computer
+
+solve() {
+    run 2> /tmp/errors.txt # add your redirections here
+}

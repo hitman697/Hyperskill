@@ -1,0 +1,104 @@
+1. After SELECT
+The table "winners" has the following columns:
+
+integer year
+boolean is_winner
+varchar(50) discipline
+integer place (0, 1, 2)
+varchar(20) first_name
+varchar(20) last_name
+varchar(30) nation
+Consider the following query:
+
+SELECT ? FROM winners;
+What should be placed instead of a ? in order to generate the result shown below?
+
+year	discipline				place	full_name
+1948	Skating, men, single			1	Dick Button
+1948	Skating, men, single			2	Hans Gerschwiler
+1948	Skating, men, single			3	Edi Rada
+...	...					...	...
+1948	Swimming, women, 100m backstroke	3	Georges Vallerey
+
+year, discipline, (place + 1) as "place", concat(concat(first_name, ' '), last_name) as "full_name"
+
+2. Columns
+A table is defined by the following statement:
+
+CREATE TABLE Weather (
+	day INTEGER,
+	hour INTEGER,
+	temperature INTEGER,
+	feels_like INTEGER,
+	wind_speed INTEGER,
+	wind_direction VARCHAR(2),
+	wind_gusts INTEGER,
+	humidity DECIMAL(3,2),
+	cloudiness DECIMAL(3,2),
+	phenomena VARCHAR(50),
+    pressure INTEGER
+);
+How many columns from the table "Weather" are referenced in the following query?
+
+SELECT
+    'Chicago' as place,
+    day, 
+    hour,
+    phenomena,
+    temperature*9/5+32 as "temperature in Fahrenheit",
+    feels_like*9/5+32 as "feels like in Fahrenheit", 
+    feels_like < temperature as "feels colder",
+    wind_speed > 7 as "windy",
+    humidity,
+    cloudiness
+FROM
+    Weather
+;
+
+8
+
+3. Database schema
+What does database schema (template) include?
+
+Columns names
+
+Column types
+
+Table names
+
+4. Keyword
+What keyword should you use to specify a table when you want to select some data from it?
+
+FROM
+
+5. What is it called?
+What is an operation of selecting a subset of table columns called?
+
+projection
+
+6. Weather
+A table is defined by the following statement:
+
+CREATE TABLE Weather (
+    hour INTEGER,
+    temperature INTEGER,
+    feels_like INTEGER,
+    wind_speed INTEGER,
+    wind_direction VARCHAR(2),
+    wind_gusts INTEGER,
+    humidity DECIMAL(3,2),
+    phenomena VARCHAR(50),
+    pressure INTEGER
+);
+Write a SELECT statement that lists the following values in the same order:
+
+hour
+the ratio of feels_like to temperature
+pressure
+
+SELECT
+    hour,
+    feels_like / temperature,
+    pressure
+FROM 
+    Weather;

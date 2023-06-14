@@ -1,0 +1,33 @@
+1. Loopback addresses
+Which of these are the loopback addresses?
+
+127.0.0.1
+
+::1
+
+2. IPv4 addresses
+Select the IPv4 addresses.
+
+243.46.101.31
+
+3. Simplifying
+Simplify this IPv6 address as much as possible: d338:0000:0000:0000:0000:0000:0000:1a95.
+
+d338::1a95
+
+4. Definition
+What is an IP?
+
+It is a protocol that defines the addressing of information as it is transmitted over a network.
+
+5. Versions
+Select all the existing versions of the IP.
+
+IPv4
+
+IPv6
+
+6. Flaw of IPv4
+Why do we need IPv6?
+
+Lack of IP addresses in IPv4

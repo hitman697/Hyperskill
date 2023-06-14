@@ -1,0 +1,34 @@
+Description
+Good job, but it seems that we forgot to tell you that the program should have one more line of code. It'll be great if you could add this change to the latest commit in the develop branch and keep the same history of commits. Do you think you're ready for this task
+
+Objectives
+All you need to do is add a line that prints Nice to meet you in the terminal. We'll provide you with the final program for this task. You can add the line by yourself or copy-paste the whole snippet to the main.py file
+
+def main() - None
+    name = input(What's your name )
+    print(fHello, {name}!)
+    print(Nice to meet you!)
+
+
+if __name__ == __main__
+    main()
+Alter the file's content, edit the latest commit, and save these changes. After you've finished the task, the number of commits in your repository should stay the same. The commit message should remain the same too.
+
+Do not forget that it is still a work in progress, so the main branch should be left intact.
+
+
+Copy below code to main.py
+
+def main() -> None:
+    name = input("What's your name? ")
+    print(f"Hello, {name}!")
+    print("Nice to meet you!")
+
+
+if __name__ == "__main__":
+    main()
+
+-> git add .
+-> git commit --amend
+
+If by chance you do more than 2 commit you can reset it by using command: git reset

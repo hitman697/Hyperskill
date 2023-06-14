@@ -1,0 +1,61 @@
+1. New feature
+Sasha works in a startup as a developer. She was tasked with developing a new method and adding it to a project. Sasha created a feature branch new_feature and debugged the code there. Then she merged the changes into develop. With which command did she perform the last action? Choose one right answer.
+
+git flow feature finish new_feature
+
+2. Features
+
+
+What branch is the feature branch based on?
+
+develop
+
+3. Match the branches with their content
+
+Match auxiliary branches with their content. What do they contain?
+
+Please note that one of the contents is superfluous.
+
+feature		new methods, functions and properties
+hotfix		errors to be mended
+release		the source code almost ready to production
+		most recent published changes
+
+4. Fix a release
+
+
+Alan has fixed the last errors in the code and now wants to upload the final version to Github. He writes the following command in the terminal: git flow release my_release 1.0. But the upload fails. What did Alan forget to write? Choose how the command should look for everything to work correctly.
+
+git flow release publish my_release 1.0
+
+5. Match the branches with their content
+
+What command should you use to download a release?
+
+git flow release pull
+
+6. Working algorithm
+Maria, Daniel, and Veronica are developing a website for an online store. For convenience, they decided to use the Gitflow model. In what order can they do this, what are the most important actions they need to take?
+
+initialize a repository
+start working on the develop branch
+create a feature branch
+merge feature into develop
+work on final steps in release branch
+merge the final version into master
+
+7. What does the command do?
+
+What is the result of using the git push --tags command? All tags are to be
+
+pushed on a server
+
+8. Auxiliary branches
+
+What are the names of auxiliary Git flow branches?
+
+release
+
+hotfix
+
+feature

@@ -1,0 +1,91 @@
+1.Hello world
+How do you print "Hello world" from the command line?
+
+echo "Hello world"
+
+2.Where is it?
+Which keyword should you use to find a command prompt on your computer?
+
+cmd (Windows) or terminal (Linux/macOS)
+
+3.Tough interview question
+You come to a job interview at a company where they sit you down at a computer with a Unix operating system. How can you show the contents of the current directory with one command?
+
+Write only the shell command inside the function below.
+Sample Input 1:
+
+
+Sample Output 1:
+
+you-are-hired
+
+
+ function solve() {
+    # add your solution using shell here
+    ls
+}
+
+4.echo
+Open the terminal and run the command echo open. What do you see?
+
+It will print "open"
+
+5.Mysterious code
+Look at this code and think what this could be.
+
+@ECHO OFF
+
+CD "C:\Program Files\LibreOffice\program"
+
+START swriter.exe
+
+
+Batch script - chain of commands in batch file on Windows OS
+
+6.What is it?
+What is a command-line interface?
+
+A way to interact with computer via text commands
+
+7.Giving incorrect command
+What happens if you enter an incorrect command?
+
+terminal returns an error message that tells it doesn't recognize the command
+
+8.Directory or list
+Open the terminal and run the command dir (Win) or ls (Unix/macOS). What do you see?
+
+terminal returns all the non-hidden files and folders in the directory that you are currently using
+
+FEEDBACK:
+By default, dir and ls commands return only non-hidden files and subfolders. If you want to view hidden files use "dir /A" or "ls -a" command!
+
+9.Trying more commands
+Run the command pwd in the terminal (Linux/macOS) or cd in cmd (Win). What do you see?
+
+terminal returns the name of the directory you are currently using
+
+10.No more CLI
+What command is used to leave the terminal in Windows, Linux, and macOS?
+
+exit
+
+11.Catch the elusive one
+As a system administrator's helper on your first day of work, you get the task to find the computer of the user elusive-joe. So you come to a room without people but with computers turned on with black screens waiting for a text command.
+
+What command should you execute on the computers to complete the task?
+
+whoami
+
+12. Where is it?
+Which keyword should you use to find a command prompt on your computer?
+
+cmd (Windows) or terminal (Linux/macOS)
+
+13. Change the folder
+
+Imagine that you are in the ~/documents directory which contains two subdirectories called project and data respectively. At first you went to the project subdirectory and now you need to go to the data. Which commands will help you do this?
+
+cd ~/documents/data
+
+cd ../data

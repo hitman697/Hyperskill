@@ -1,0 +1,67 @@
+-- write your queries here
+
+--------------------------------------- Video Game Table -----------------------------------------------------
+
+video_games_tb = "CREATE TABLE video_games(
+                        id INT PRIMARY KEY,
+                        name VARCHAR(60),
+                        game_genre VARCHAR(60),
+                        game_developer VARCHAR(60),
+                        release_date DATE
+)";
+
+---------------------------------------- Game Developers Table ------------------------------------------------
+
+game_developers_tb = "CREATE TABLE game_developers(
+                        id INT PRIMARY KEY,
+                        name VARCHAR(60),
+                        address VARCHAR(80),
+                        state VARCHAR(40),
+                        city VARCHAR(40),
+                        country VARCHAR(30)
+)";
+
+------------------------------------------ Platforms Table ----------------------------------------------------
+
+platforms_tb = "CREATE TABLE platforms(
+                    id INT PRIMARY KEY,
+                    name VARCHAR(40),
+                    company_id INT,
+                    company VARCHAR(40),
+                    release_date DATE,
+                    original_price DECIMAL(20,2)
+)";
+
+---------------------------------------- Platforms Games Table -------------------------------------------------
+
+platforms_games_tb = "CREATE TABLE platforms_games(
+                        game_id INT,
+                        platform_id INT,
+                        platform_name VARCHAR(50),
+                        CONSTRAINT pk_platforms_games PRIMARY KEY(game_id, platform_id),
+                        CONSTRAINT fk_video_games FOREIGN KEY (game_id) REFERENCES video_games(id),
+                        CONSTRAINT fk_platforms FOREIGN KEY (platform_id) REFERENCES platforms(id)
+)";
+
+----------------------------------- Characters Table -----------------------------------------------------------
+
+characters_tb = "CREATE TABLE characters(
+                    id INT PRIMARY KEY,
+                    name VARCHAR(60),
+                    birthday DATE,
+                    gender DECIMAL(5,1),
+                    info VARCHAR(90)
+)";
+
+--------------------------------- Games Characters Table -------------------------------------------------------
+
+games_characters_tb = "CREATE TABLE games_characters(
+                            character_id INT,
+                            character_name VARCHAR(60),
+                            game_id INT,
+                            CONSTRAINT pk_games_characters PRIMARY KEY(character_id, game_id),
+                            CONSTRAINT fk_video_games FOREIGN KEY (character_id) 
+                            REFERENCES characters(customer_id),
+                            CONSTRAINT fk_characters FOREIGN KEY (game_id) 
+                            REFERENCES video_games(id)
+)";

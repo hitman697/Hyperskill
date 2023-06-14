@@ -1,0 +1,46 @@
+1.Copy of the repo
+Your fork on GitHub you have full access to is called
+
+origin
+
+2.Check the repo state
+To verify the repo state one needs to use
+
+git status
+
+3.Original repo
+An original project repository you have forked is called
+
+upstream
+
+4.Cloning the repo
+Why may you need to work with a repo locally?
+
+to change large projects and debug them
+
+5.Propagating changes
+What command will you use to propagate changes from a local repository to a remote one?
+
+push
+
+6.Stage the change
+The programmer made changes to the project.py file and now he needs to stage these changes. Which command is correct for solving this problem?
+
+git add project.py
+
+
+7.Explain the result
+Suppose, you have a repository hosted on GitHub and cloned a project to your local computer.
+
+You are in the project directory.
+
+git branch fix-a-bug
+git checkout fix-a-bug
+git status
+git add .
+git commit -m "fix a bug"
+
+
+You have a new branch fix-a-bug in the local repo on your computer.
+
+You made a commit.

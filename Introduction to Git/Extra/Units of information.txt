@@ -1,0 +1,63 @@
+1. Convert bits into bytes
+How many bytes are in 256 bits?
+
+If the answer is a decimal fraction, separate the parts with the dot symbol.
+
+32
+
+2. 1 and 0
+Any information in a classical computer is represented by binary digits: 1 and 0. But what do they mean?
+
+Select all correct statements.
+
+0 means "no signal"
+
+1 means "there is a signal"
+
+3. Convert bytes into kibibytes
+How many KiB are there in 1536 B?
+
+If the answer is a decimal fraction, separate the parts with the dot symbol.
+
+1.5
+
+
+4. From smallest to largest
+Sort the units of information from the smallest to the largest.
+
+The largest unit should be at the bottom of the list.
+
+bit
+byte
+kilobyte
+megabyte
+
+
+5. Statements
+Choose the right statements according to modern standards.
+
+decimal-based system uses kilobyte, megabyte, gigabyte
+
+binary-based system uses kibibyte, mebibyte, gibibyte
+
+
+6. The units of information
+Match the units of information with their values:
+
+1 kilobyte		1000 bytes
+1 megabyte		1000 kilobytes
+1 gigabyte		1000 megabytes
+1 terabyte		1000 gigabytes
+1 petabyte 		1000 terabytes
+
+7. The smallest unit of information
+What is the smallest unit of information called?
+
+bit
+
+8. Convert bytes into bits
+How many bits are there in 12 bytes?
+
+If the answer is a decimal fraction, separate the parts with the dot symbol.
+
+96

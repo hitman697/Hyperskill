@@ -1,0 +1,85 @@
+1. Also know as
+Choose the other name of foreign key.
+
+referencing key
+
+2. Let's see
+You want to know the foreign key name in table customers. What command will you use?
+
+SHOW CREATE TABLE customers;
+
+3. Application
+To the column id_number in the table persons, add a named foreign key constraint fk_id referring to the primary key column id_number in the table documents. Specify the ON DELETE action: use cascade.
+
+ALTER TABLE persons
+ADD constraint fk_id FOREIGN KEY (id_number)
+references documents(id_number)
+ON DELETE CASCADE;
+
+4. Referential actions
+
+Match the referential actions with what they do.
+
+CASCADE		Automatically deletes or updates the matching rows in the child table.
+SET NULL	Sets the foreign key in the child table to NULL.
+RESTRICT	Rejects the delete or update operation for the parent table.
+SET DEFAULT	Sets the foreign key in the child table to default value.
+
+5. No more keys
+Select all the correct statements about the tables schools and students that were created as follows:
+
+CREATE TABLE schools (
+ school_num INT PRIMARY KEY, 
+ principal_name VARCHAR(40) NOT NULL, 
+ city VARCHAR(25)
+); 
+
+
+CREATE TABLE students (
+ first_name VARCHAR(20) NOT NULL, 
+ last_name VARCHAR(20) NOT NULL, 
+ school INT, 
+ FOREIGN KEY (school) REFERENCES schools(school_num)
+);
+
+schools is a referenced table
+
+schools is a parent table
+
+students is a child table
+
+6. Delete the foreign key
+How can you remove the foreign key named fk_account from the table users?
+
+Continue the following code:
+
+ALTER TABLE users
+...
+
+DROP FOREIGN KEY fk_account;
+
+7. Pets
+Create a table animals with columns name VARCHAR(20), animal_kind VARCHAR(20) and owner_id INT. The owner_id column should be an unnamed foreign key pointed to the column id in the table persons.
+
+CREATE TABLE animals(
+    name VARCHAR(20),
+    animal_kind VARCHAR(20),
+    owner_id INT,
+    FOREIGN KEY (owner_id) REFERENCES persons(id)
+);
+
+8. Correct statements
+
+Select all the correct statements about the FOREIGN KEY constraint.
+
+
+Child table is the table containing the foreign key
+
+Foreign key is used to link two tables together
+
+9. Link the tables
+To the column customer_id in the table orders, add a named foreign key constraint fk_customers referring to the primary key column customer_id in the table customers.
+
+ALTER TABLE orders
+    ADD CONSTRAINT fk_customers FOREIGN KEY (customer_id) 
+    REFERENCES customers(customer_id);

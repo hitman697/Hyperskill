@@ -1,0 +1,45 @@
+1. Features of npm
+What can you do with the npm?
+
+Update packages
+
+Share your packages with other users
+
+Download packages
+
+Delete packages
+
+2. Acronym
+What does npm stand for?
+
+Node Package Manager
+
+
+3. Installing the package
+What npm command does a terminal need to install the react-dom package?
+
+npm i react-dom
+
+4. Updating packages
+What npm command should you run in a terminal to update all the packages in the project?
+
+npm up
+
+5. Main components
+What are the main components of the npm?
+
+a remote registry that keeps all public and private packages in one place
+
+a command-line client that is used for downloading and publishing packages
+
+a website to discover packages using your browser
+
+6. Project initialization
+Which npm command is used to initialize a project?
+
+npm init
+
+7. Version
+What command do you need to run in the terminal to check which version of npm is installed on your device?
+
+npm -v

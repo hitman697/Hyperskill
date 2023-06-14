@@ -1,0 +1,90 @@
+1.All arguments
+Which variable can be used to access all the arguments from the console as one word?
+
+$*
+
+2.Comments
+How can you add comments to your scripts?
+
+Put # before the line of code.
+
+3.Read all parameters
+Write a function all_parameters that accepts any number of the parameters as the input, reads all of them at once, and displays them in the console.
+
+all_parameters() {
+    echo $*
+}
+
+4.Output the total number
+Write a function total_number that prints the total number of given parameters. The output line should look like this: The total number of parameters is <there is the total number>
+
+total_number() {
+    echo The total number of parameters is $#
+}
+
+5.Output the second parameter
+Write a function second_parameter that prints the second parameter.
+
+The string should look like this: The second parameter is <here is the second parameter>
+
+second_parameter() {
+    echo The second parameter is $2
+}
+
+6. Number of positional parameters
+How many command line parameters can be assigned to positional parameters?
+
+as many as you want
+
+7. Zero argument
+What does $0 stand for?
+
+name of the script
+
+8. Hello
+
+Write a function hello() that takes a username as the input and returns the string Hello, user <username>!
+
+Sample Input 1:
+
+Mary
+Sample Output 1:
+
+Hello, user Mary!
+
+Code editor:
+
+hello() {
+    echo Hello, user $1!
+}
+
+
+9. Output of number and parameters
+
+Write a partial_output() function that will output the number of parameters, and then will display the first and third parameters of the bunch.
+
+Sample Input 1:
+
+Mary Jane Ostin
+Sample Output 1:
+
+There are 3 parameters
+The first one is Mary
+The third one is Ostin
+
+
+partial_output() {
+    echo -e "There are $# parameters\nThe first one is $1\nThe third one is $3"
+}
+
+10. Function mistakes
+
+Are there any mistakes in the syntax of this function?
+
+function (
+    echo "Hello there"
+)
+
+There is no function_name()
+
+Wrong type of brackets

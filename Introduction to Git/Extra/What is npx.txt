@@ -1,0 +1,35 @@
+1. Packages
+Which of these can be sourced to run by npx?
+
+GitHub Gist
+
+NPM Package
+
+2. How to run
+You want to run the package awesome-npx with the help of npx. What command you should run?
+
+npx awesome-npx
+
+3. Resolution order
+What is the order of npx packaging resolution?
+
+Try to resolve provided name with NPM registry
+If installed locally, then run
+If not installed locally, ask to install
+If package.json has single bin entry, then execute it
+If package.json has multiple bin entries and one of them matches package name, then execute it
+
+4. Cowsay
+How can you run the cowsay package with the hello parameter with npx?
+
+npx cowsay hello
+
+5. The Rainbow
+How to print help (parameter --help ) for the package lolcatjs with npx?
+
+npx lolcatjs --help
+
+6. Solution
+Which problems does npx solve?
+
+Installing and running packages from npm

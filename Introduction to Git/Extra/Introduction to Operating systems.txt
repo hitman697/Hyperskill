@@ -1,0 +1,107 @@
+1.Kernels
+Find the correct matches about the kernel
+
+Monolithic kernel	is a program that performs most of the OS functions
+Microkernel		performs a smaller subset of the OS functions, can be extended with additional modules - drivers
+Kernel			is a mandatory part of any OS, it's core
+
+2.OS
+Select all operating systems:
+
+
+Select one or more options from the list
+
+iOS(✓)
+
+Kernel
+
+macOS(✓)
+
+Microsoft Windows(✓)
+
+CLI
+
+GUI
+
+Android(✓)
+
+3.Match concepts
+Try to guess and find correct matches between the concepts on the left with what corresponds to the concepts on the right based on the theory.
+
+User space		Application and Libraries
+Operating System	Processor, Memory and Device management
+Hardware		Processor, Memory, Devices
+
+4.OS features
+Select the OS features:
+
+Select one or more options from the list
+
+Communication between hardware and peripherals(✓)
+
+File management(✓)
+
+Resource management(✓)
+
+Data protection and secure access(✓)
+
+5.Main function
+What is the main function of an OS?
+
+It controls the communication between all the computer software and hardware
+
+6.Terms
+Match the terms with their definitions:
+
+
+Match the items from left and right columns
+
+OS	Manages computer hardware, software resources, and provides common services for computer programs
+Kernel	The main part of any operating system providing programs with coordinated access to computer resources
+CLI	Text-based interface in which a person interacts with a computer with commands
+GUI	User interface that allows users to interact with the device using graphical icons
+
+
+7.GUI
+What does GUI stand for?
+
+Graphical User Interface
+
+8.CLI
+What does CLI stand for?
+
+Command-Line Interface
+
+9.Interaction
+
+What are the interfaces that allow users to interact with the device?
+
+Command Line Interface
+
+Graphical User Interface
+
+10.Riddle from Sphinx
+Now, based on the theory try to answer a riddle from the famous Sphinx:
+
+"A thing there is
+
+whose types are two:
+
+Large one of them
+
+and many things can do,
+
+Small second one
+
+and do a few,
+
+Important both are
+
+from any point of view.
+
+When you turn your computer on
+
+It loads early, one of the first."
+
+
+-Kernel
